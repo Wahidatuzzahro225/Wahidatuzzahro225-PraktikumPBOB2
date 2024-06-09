@@ -1,0 +1,10 @@
+Dalam pemrograman berorientasi objek, terdapat dua jenis anggota (member) utama dalam sebuah kelas: instance member dan class member.
+
+|  No |  Aspek Perbedaan  |                           Instance                       |                              Class                         |
+|  1  |      Atribut      | - Dideklarasikan di dalam kelas dan setiap objek         | - Dideklarasikan dengan kata kunci static di dalam kelas   |
+|     |                   |    (instance) memiliki salinan atribut tersebut.         |   dan digunakan oleh semua objek dari kelas tersebut.      |
+|     |                   | - Diakses melalui objek tertentu (instance) dari kelas.  | - Diakses melalui nama kelas tanpa  membuat objek baru.    |
+|  2  |      Metode       | - Dideklarasikan di dalam kelas dan bekerja pada objek   | - Dideklarasikan dengan kata kunci static di dalam kelas   |
+|     |                   |   instance) kelas tersebut.                              |   dan tidak memerlukan objek untuk dipanggil.              |
+|     |                   | - Dipanggil melalui objek (instance) dari kelas.         | - Dipanggil melalui nama kelas tanpa membuat objek baru.   |
+
