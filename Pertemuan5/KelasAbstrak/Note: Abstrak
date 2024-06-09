@@ -1,0 +1,8 @@
+- Jika kelas BujurSangkar tidak mengimplementasikan metode abstrak dari kelas BangunDatar, 
+  kelas BujurSangkar harus dideklarasikan sebagai kelas abstrak juga. Jika tidak, maka 
+  akan terjadi kesalahan kompilasi.
+- Jika mencoba mendeklarasikan BujurSangkar sebagai kelas biasa tanpa mengimplementasikan metode    
+  abstrak dari kelas BangunDatar, kompiler Java akan menghasilkan kesalahan kompilasi. Hal ini disebabkan karena kelas BujurSangkar tidak memenuhi kontrak yang ditetapkan oleh kelas abstrak BangunDatar.
+    Error: BujurSangkar is not abstract and does not override abstract method hitungLuas(double) in BangunDatar
+- Konsep polimorfisme dalam OOP mengharuskan bahwa objek yang dibuat dari kelas turunan (subclass) dapat 
+  digunakan sebagai objek dari kelas induk (superclass). Ini berarti bahwa semua metode abstrak di kelas induk harus diimplementasikan di kelas turunan untuk memastikan bahwa perilaku yang diharapkan dapat tercapai. Tidak mengimplementasikan metode abstrak akan merusak konsistensi ini.
