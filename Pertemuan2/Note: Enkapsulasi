@@ -1,0 +1,17 @@
+    Enkapsulasi adalah konsep dalam pemrograman berorientasi objek yang bertujuan untuk menyembunyikan rincian implementasi 
+internal dari sebuah objek dan hanya mengekspos apa yang diperlukan kepada dunia luar melalui antarmuka publik. Dengan cara ini, 
+enkapsulasi membantu dalam menjaga integritas data dan mencegah akses yang tidak sah atau modifikasi langsung pada data internal 
+objek.
+
+    private String nama; mendefinisikan variabel nama sebagai private, yang berarti variabel ini hanya dapat diakses dan dimodifikasi 
+    dari dalam kelas Mahasiswa itu sendiri.
+
+    public String getNama() dan public void setNama(String n) adalah metode publik yang digunakan untuk mengakses dan memodifikasi 
+    nilai nama. Metode ini dikenal sebagai getter dan setter.
+
+    Jika kita mengubah visibilitas nama menjadi public dan mengubah visibilitas metode getter dan setter menjadi private, ini akan 
+memiliki beberapa pengaruh pada hasil dan cara kita berinteraksi dengan objek Mahasiswa. Hal ini berpengaruh pada Akses Langsung ke Data 
+Dengan nama sebagai public, variabel nama bisa diakses dan dimodifikasi secara langsung dari luar kelas. Ini menghilangkan kontrol yang 
+kita miliki terhadap bagaimana dan kapan data tersebut diakses atau diubah. Serta, Keterbatasan Penggunaan Getter dan Setter: Dengan getter 
+dan setter menjadi private, metode ini tidak dapat dipanggil dari luar kelas. Ini berarti kita tidak bisa lagi menggunakan metode ini untuk 
+mengakses atau mengubah nilai nama melalui cara yang terkontrol.
