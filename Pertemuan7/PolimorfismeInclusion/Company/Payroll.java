@@ -1,0 +1,7 @@
+package Pertemuan7.PolimorfismeInclusion.Company;
+
+public class Payroll {
+    public void cetakGaji(Pegawai p) {
+        p.tampilData();
+    }
+}
